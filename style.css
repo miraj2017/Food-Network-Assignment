@@ -1,0 +1,201 @@
+
+body{
+    margin: 0;
+   
+}
+
+.section-1{
+    display: flex;
+}
+.section-1-left{
+    width: 40%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 10%;
+}
+
+.section-1-left h1{
+    font-size: 55px;
+    color:#2c3e50;
+}
+.section-1-left span{
+    color: orange;
+}
+.section-1-left p{
+    margin-bottom: 60px;
+}
+.section-1-left a{
+    text-decoration: none;
+    color: white;
+    background:linear-gradient(to right,hsl(39, 100%, 50%),rgb(185, 64, 64));
+    padding:15px 25px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgb(197, 162, 98);
+    
+}
+.section-1-right{
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+.section-1-right img{
+    width: 70%;
+}
+
+
+
+.section-2{
+    display: flex;
+    justify-content: center;
+    background:url(images/bg-1.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+}
+.section-2-left{
+    width: 30%;
+    margin-left: 15%;
+    margin-top: 70px;
+
+}
+.section-2-left img{
+    width: 45%;
+}
+.section-2-right{
+    width: 30%;
+    margin-right: 15%;
+    margin-top: 70px;
+  
+}
+
+.section-2-right p{
+    margin-bottom: 90px;
+}
+
+.section-2-right a{
+
+    text-decoration: none;
+    color: white;
+    background:linear-gradient(to right,hsl(39, 100%, 50%),rgb(185, 64, 64));
+    padding:15px 25px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgb(197, 162, 98);
+}
+
+
+
+
+.section-3{
+    /* margin: 50px 0px; */
+    padding: 50px 0px;
+    /* background:#e1b12c; */
+}
+.section-3-text{
+    width: 30%;
+    margin:0 auto;
+}
+.section-3-text h1{
+    text-align: center;
+}
+.section-3-text p{
+    text-align: center;
+}
+.section-3-recipe{
+    display: flex;
+    margin:5% 10%;
+}
+.recipe-details{
+
+    width:30%;
+    margin:0 3%;
+    background: white;
+    border-radius: 30px;
+    box-shadow: 1px 1px 20px gray;
+    
+}
+.recipe-image{
+    width: 90%;
+    margin: 20px;
+}
+.recipe-text{
+    margin: 20px;
+}
+
+.recipe-image img{
+    width: 100%;
+}
+.recipe-text{}
+
+
+
+
+
+.section-4{
+    margin-top: 50px;
+    
+    
+    background: whitesmoke;
+    
+    padding: 100px 0px;
+}
+.section-4-text{
+    text-align: center;
+    padding-bottom: 50px; ;
+}
+
+
+.section-4-review{
+    display: flex;
+    justify-content: center;
+  
+  
+}
+.section-4-details{
+    width: 30%;
+    margin: 0 3%;
+    box-shadow: 1px 1px 10px gray;
+}
+.section-4-details-image img{
+    width: 100%;
+}
+.section-4-details-text{
+    margin:1%;
+}
+
+
+
+.section-5{
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px;
+   
+ 
+   
+}
+.section-5-text{
+    width: 20%;
+    margin: 3%;
+
+}
+
+.section-5-text h2{
+    text-align: center;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+footer{
+    padding: 50px 0px;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+footer span{
+    color: orange;
+}
